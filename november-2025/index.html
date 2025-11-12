@@ -26,10 +26,27 @@
       }
       @media only screen and (max-width: 600px) {
         .heading {
-          font-size: 36px !important;
+          font-size: 44px !important;
+        }
+        .subheading {
+          font-size: 32px !important;
+          line-height: 44px !important;
+          padding: 0 32px 24px 32px !important;
+        }
+        .overline {
+          font-size: 24px !important;
+          line-height: 48px !important;
         }
         .text {
           font-size: 28px !important;
+          line-height: 40px !important;
+           padding: 0 32px 40px 32px!important;
+        }
+        .image-grid {
+          padding: 0 32px 40px 32px!important;
+        }
+        .footer {
+          font-size: 24px !important;
           line-height: 40px !important;
         }
       }
@@ -54,7 +71,6 @@
                     background-color: #f5f5f5;
                     border-radius: 24px;
                     overflow: hidden;
-                    min-height: 400px;
                     height: 400px;
                   "
                 >
@@ -65,239 +81,224 @@
                     style="
                       width: 100%;
                       max-width: 600px;
-                      height: auto;
+                      height: 400px;
                       display: block;
+                      object-fit: cover;
                     "
                   />
                 </div>
               </td>
             </tr>
             <tr>
-              <td
-                class="heading"
-                style="
-                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                    Roboto, 'Helvetica Neue', Arial, sans-serif;
-                  font-size: 28px;
-                  color: #000000;
-                  padding: 0 32px 20px 32px;
-                  font-weight: bold;
-                "
-              >
+              <td class="heading" style="font-size: 36px; line-height: 56px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #000000; padding: 0 32px 8px 32px; font-weight: bold;">
                 FCC Studio Newsletter
               </td>
             </tr>
             <tr>
-              <td
-                class="text"
-                style="
-                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                    Roboto, 'Helvetica Neue', Arial, sans-serif;
-                  font-size: 16px;
-                  line-height: 24px;
-                  color: #333333;
-                  padding: 0 32px 16px 32px;
-                "
-              >
-                You can customize this content with your own message, images, and
-                styling as needed.
+              <td class="overline" style="font-size: 14px; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #999999; padding: 0 32px 24px 32px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">
+                Issue 001 &nbsp;·&nbsp; November 14, 2025
               </td>
             </tr>
             <tr>
-              <td
-                class="text"
-                style="
-                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                    Roboto, 'Helvetica Neue', Arial, sans-serif;
-                  font-size: 16px;
-                  line-height: 24px;
-                  color: #333333;
-                  padding: 0 32px 16px 32px;
-                "
-              >
-                You can customize this content with your own message, images, and
-                styling as needed.
+              <td class="text" style="font-size: 16px; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #333333; padding: 0 32px 32px 32px;">
+                Welcome to the first issue of the FCC Studio Newsletter! We're excited to share projects, inspiration, and happenings at the studio.
               </td>
             </tr>
             <tr>
-              <td
-                class="text"
-                style="
-                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                    Roboto, 'Helvetica Neue', Arial, sans-serif;
-                  font-size: 16px;
-                  line-height: 24px;
-                  color: #333333;
-                  padding: 0 32px 16px 32px;
-                "
-              >
-                You can customize this content with your own message, images, and
-                styling as needed.
+              <td class="subheading" style="font-size: 18px; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #000000; padding: 0 32px 16px 32px; font-weight: bold;">
+                We had our first gallery show over the weekend!
               </td>
             </tr>
+            <tr>
+              <td class="text" style="font-size: 16px; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #333333; padding: 0 32px 32px 32px;">
+                Thanks to everyone who came out to the show and opening reception. It was so meaningful to see so many of you there and we're really grateful for your support. Huge thanks to our host, <a href="https://dastner.com/studio/" style="color: #000000;">Studio Anselm Dastner</a>, for making it all possible!
 
-            <!-- 2-UP IMAGE GRID -->
-            <tr>
-              <td style="padding: 0 32px 16px 32px">
-                <table width="100%" border="0" cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td width="50%" style="padding-right: 8px">
-                      <img
-                        src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/2.jpeg"
-                        alt="Image 1"
-                        width="268"
-                        style="
-                          width: 100%;
-                          max-width: 268px;
-                          height: auto;
-                          display: block;
-                          border-radius: 12px;
-                        "
-                      />
-                    </td>
-                    <td width="50%" style="padding-left: 8px">
-                      <img
-                        src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/3.jpeg"
-                        alt="Image 2"
-                        width="268"
-                        style="
-                          width: 100%;
-                          max-width: 268px;
-                          height: auto;
-                          display: block;
-                          border-radius: 12px;
-                        "
-                      />
-                    </td>
-                  </tr>
-                </table>
+                <br />
+                <br />
+
+                If you missed the show, you can watch <a href="https://www.youtube.com/watch?v=xh-6t8PCRwg&list=PLb3kabxgDkcgarCHB_beFZCnPH5x9atMa" style="color: #000000;">the entire 28 hour recording on YouTube</a>, including our 6 hour setup on Friday. Let us know when you're done. There's also this <a href="https://youtu.be/eI5XUPGTCdM?si=nfdWaw-hNE3TbT7y" style="color: #000000;">1 minute walkthrough</a> if you have less time.
               </td>
             </tr>
             <!-- 2-UP IMAGE GRID -->
             <tr>
-              <td style="padding: 0 32px 32px 32px">
-                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <td class="image-grid" style="padding: 0 32px 32px 32px;">
+                <table class="image-grid-container" width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tr>
-                    <td width="50%" style="padding-right: 8px">
-                      <img
-                        src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/4.jpeg"
-                        alt="Image 1"
-                        width="268"
-                        style="
-                          width: 100%;
-                          max-width: 268px;
-                          height: auto;
-                          display: block;
-                          border-radius: 12px;
-                        "
-                      />
-                    </td>
-                    <td width="50%" style="padding-left: 8px">
-                      <img
-                        src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/7.jpeg"
-                        alt="Image 2"
-                        width="268"
-                        style="
-                          width: 100%;
-                          max-width: 268px;
-                          height: auto;
-                          display: block;
-                          border-radius: 12px;
-                        "
-                      />
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-            <tr>
-              <td
-                class="text"
-                style="
-                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                    Roboto, 'Helvetica Neue', Arial, sans-serif;
-                  font-size: 16px;
-                  line-height: 24px;
-                  color: #333333;
-                  padding: 0 32px 16px 32px;
-                "
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </td>
-            </tr>
-            <!-- 2-UP IMAGE GRID -->
-            <tr>
-              <td style="padding: 0 32px 32px 32px">
-                <table width="100%" border="0" cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td width="50%" style="padding-right: 8px">
-                      <img
-                        src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/6.jpeg"
-                        alt="Image 1"
-                        width="268"
-                        style="
-                          width: 100%;
-                          max-width: 268px;
-                          height: auto;
-                          display: block;
-                          border-radius: 12px;
-                        "
-                      />
-                    </td>
-                    <td width="50%" style="padding-left: 8px">
-                      <img
-                        src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/5.jpeg"
-                        alt="Image 2"
-                        width="268"
-                        style="
-                          width: 100%;
-                          max-width: 268px;
-                          height: auto;
-                          display: block;
-                          border-radius: 12px;
-                        "
-                      />
+                    <td>
+                      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td width="50%" style="padding-right: 8px; padding-bottom: 16px">
+                            <div style="background-color: #f5f5f5; border-radius: 12px; overflow: hidden; height: 200px;">
+                              <img
+                                src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/2.jpeg"
+                                alt="Image 1"
+                                width="268"
+                                style="
+                                  width: 100%;
+                                  max-width: 268px;
+                                  height: 200px;
+                                  display: block;
+                                  object-fit: cover;
+                                "
+                              />
+                            </div>
+                          </td>
+                          <td width="50%" style="padding-left: 8px; padding-bottom: 16px">
+                            <div style="background-color: #f5f5f5; border-radius: 12px; overflow: hidden; height: 200px;">
+                              <img
+                                src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/3.jpeg"
+                                alt="Image 2"
+                                width="268"
+                                style="
+                                  width: 100%;
+                                  max-width: 268px;
+                                  height: 200px;
+                                  display: block;
+                                  object-fit: cover;
+                                "
+                              />
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="50%" style="padding-right: 8px">
+                            <div style="background-color: #f5f5f5; border-radius: 12px; overflow: hidden; height: 200px;">
+                              <img
+                                src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/4.jpeg"
+                                alt="Image 3"
+                                width="268"
+                                style="
+                                  width: 100%;
+                                  max-width: 268px;
+                                  height: 200px;
+                                  display: block;
+                                  object-fit: cover;
+                                "
+                              />
+                            </div>
+                          </td>
+                          <td width="50%" style="padding-left: 8px">
+                            <div style="background-color: #f5f5f5; border-radius: 12px; overflow: hidden; height: 200px;">
+                              <img
+                                src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/7.jpeg"
+                                alt="Image 4"
+                                width="268"
+                                style="
+                                  width: 100%;
+                                  max-width: 268px;
+                                  height: 200px;
+                                  display: block;
+                                  object-fit: cover;
+                                "
+                              />
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
               </td>
             </tr>
             <tr>
-              <td
-                class="text"
-                style="
-                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-                    Roboto, 'Helvetica Neue', Arial, sans-serif;
-                  font-size: 16px;
-                  line-height: 24px;
-                  color: #333333;
-                  padding: 0 32px 32px 32px;
-                "
-              >
+              <td class="text" style="font-size: 16px; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #333333; padding: 0 32px 32px 32px;">
+                It was cool to hear people's reactions, including conversations about AI art. When two people saw <a href="https://leomancini.net/wallflower" style="color: #000000;">Wallflower</a>, they reflected on how it felt like a more interesting use of AI image generation since it was incorporating video that would be hard for a human to create manually.
+
+                <br />
+                <br />
+
+                We had a few children come in with their parents and it was great to see how both younger and older people were able to experience together. Watching how kids came up with stories in real time while playing with visualizers on the <a href="https://fcc.lol/project/play-machine-mini" style="color: #000000;">Play Machine Mini</a> was really delightful.
+
+                <br />
+                <br />
+
+                People seemed to have a lot of fun playing with the <a href="https://fcc.lol/project/handheld-computer-vision-rig" style="color: #000000;">Handheld Computer Vision Rig</a>. It was awesome to watch how people were using it with their friends and enjoying seeing the world through the lens of AI.
+
+                <br />
+                <br />
+
+                The <a href="https://fcc.lol/project/friendship-beacon" style="color: #000000;">Friendship Beacon</a> attracted people with its bold colors and intricate combination of components, which was great to see, especially since this was the project that really catalyzed the early formation of FCC Studio!
+              </td>
+            </tr>
+            <!-- 2-UP IMAGE GRID -->
+            <tr>
+              <td class="image-grid" style="padding: 0 32px 32px 32px;">
+                <table class="image-grid-container" width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td>
+                      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td width="50%" style="padding-right: 8px">
+                            <div style="background-color: #f5f5f5; border-radius: 12px; overflow: hidden; height: 200px;">
+                              <img
+                                src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/6.jpeg"
+                                alt="Image 1"
+                                width="268"
+                                style="
+                                  width: 100%;
+                                  max-width: 268px;
+                                  height: 200px;
+                                  display: block;
+                                  object-fit: cover;
+                                "
+                              />
+                            </div>
+                          </td>
+                          <td width="50%" style="padding-left: 8px">
+                            <div style="background-color: #f5f5f5; border-radius: 12px; overflow: hidden; height: 200px;">
+                              <img
+                                src="https://raw.githubusercontent.com/fcc-lol/newsletter/refs/heads/main/november-2025/images/5.jpeg"
+                                alt="Image 2"
+                                width="268"
+                                style="
+                                  width: 100%;
+                                  max-width: 268px;
+                                  height: 200px;
+                                  display: block;
+                                  object-fit: cover;
+                                "
+                              />
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="subheading" style="font-size: 18px; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #000000; padding: 0 32px 16px 32px; font-weight: bold;">
+                What's next?
+              </td>
+            </tr>
+            <tr>
+              <td class="text" style="font-size: 16px; line-height: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #333333; padding: 0 32px 32px 32px;">
+                First, a little bit of rest. We spent the last few weeks planning and preparing for this show, so we're excited to reset a little bit and take a breath. We're moving some projects into storage and making space in the studio for new work. If you or someone you know is interested in purchasing a piece from the show, please <a href="mailto:studio@fcc.lol?subject=Interested in purchasing a piece from FCC Studio" style="color: #000000;">let us know</a>.
+
+                <br />
+                <br />
+
+                We do have a few project ideas that we're excited about starting soon, including a digital mirror with a camera for generating AI poetry, a physical countdown clock of new rocket launches inside of a decommissioned airplane meal container, and a fine-tuned AI model that can assist in making Traditional Chinese Medicine recommendations.
+
+                <br />
+                <br />
+
+                We'll share more in future newsletters! As always, please feel free to email us at <a href="mailto:studio@fcc.lol" style="color: #000000;">studio@fcc.lol</a> with ideas, questions, or thoughts!
+
+
+                <br />
+                <br />
+
                 Be well,<br />Zach, Dan, and Leo
               </td>
             </tr>
             <tr>
-              <td style="padding: 0 32px 32px 32px">
+              <td style="padding: 16px 32px 32px 32px">
                 <table width="100%" border="0" cellpadding="0" cellspacing="0">
                   <tr>
-                    <td
-                      style="
-                        border-top: 1px solid #e0e0e0;
-                        padding-top: 24px;
-                        font-family: -apple-system, BlinkMacSystemFont,
-                          'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-                          sans-serif;
-                        font-size: 14px;
-                        line-height: 20px;
-                        color: #666666;
-                        text-align: left;
-                      "
-                    >
-                      Brought to you by <a href="https://fcc.studio" style="color: #333333;">FCC Studio</a> in Long Island City, NY.
+                    <td class="footer" style="font-size: 14px; line-height: 20px; border-top: 1px solid #e0e0e0; padding-top: 44px; padding-bottom: 64px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; color: #666666; text-align: left;">
+                      Brought to you from Long Island City, Queens, NY.
 
                       <br />
                       <br />
